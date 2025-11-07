@@ -7,7 +7,7 @@ body {
 
 header {
   background-color: #160a57;
-  color: rgba(240, 241, 241, 0.932);
+  color: rgba(9, 36, 36, 0.932);
   padding: 20px;
   text-align: center;
 }
@@ -42,7 +42,7 @@ table {
 }
 
 table, th {
-  border: 1px solid #333;
+  border: 1px solid #974040;
 }
 
 th, td {
