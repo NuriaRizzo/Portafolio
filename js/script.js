@@ -1,4 +1,3 @@
-// Modal dinámico en services.html
 const modal = document.getElementById('modalDetalle');
 if (modal){
   modal.addEventListener('show.bs.modal', e => {
@@ -9,7 +8,7 @@ if (modal){
   });
 }
 
-// Toast global
+
 const toastTrigger = document.getElementById('toastBtn');
 const toastLive = document.getElementById('liveToast');
 if (toastTrigger && toastLive) {
@@ -17,7 +16,7 @@ if (toastTrigger && toastLive) {
   toastTrigger.addEventListener('click', () => toastBootstrap.show());
 }
 
-// Validación Bootstrap para formulario
+
 (() => {
   const forms = document.querySelectorAll('.needs-validation');
   Array.from(forms).forEach(form => {
