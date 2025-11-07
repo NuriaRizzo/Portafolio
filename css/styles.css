@@ -1,28 +1,56 @@
-:root{
-    --bs-primary:#0d6efd;
-    --bs-secondary:#eff3f7;
-    --bs-success:#1e275f;
-    --bs-danger:#dc3545;
-    --bs-warning:#ffc107;
-    --bs-info:#0dcaf0;
-    --bs-light:#f8f9fa;
-    --bs-dark:#000000;
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #8abd23;
 }
 
-/*stilo de efecto para una galeria*/
-.img-hover img{
-    transition: transform .3s ease, filter .3s ease;
-}
-.img-hover:hover img{
-    transform: scale(1.03);
-    filter: brightness(0.9);
+header {
+  background-color: #0040804a;
+  color: rgb(0, 0, 0);
+  padding: 20px;
+  text-align: center;
 }
 
-/*ajustes de card pequeñas*/
-.card-title { 
-    letter-spacing: .2px;
+nav {
+  background-color: #003366;
+  overflow: hidden;
 }
 
-footer small {
-    color:#6c757d
+nav a {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+nav a:hover {
+  background-color: #440000;
+}
+
+main {
+  padding: 20px;
+  font-family: Cambria;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+table, th {
+  border: 1px solid #333;
+}
+
+th, td {
+  padding: 10px;
+  text-align: left;
+}
+
+img {
+  max-width: 10%;
+  height: auto;
 }
