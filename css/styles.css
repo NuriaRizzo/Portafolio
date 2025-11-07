@@ -54,3 +54,7 @@ img {
   max-width: 10%;
   height: auto;
 }
+
+.custom-header {
+  background-color: #1e3a8a; 
+}
