@@ -6,7 +6,7 @@ body {
 }
 
 header {
-  background-color: #0d0441;
+  background-color: #100453;
   color: rgba(9, 36, 36, 0.932);
   padding: 20px;
   text-align: center;
@@ -57,10 +57,10 @@ img{
 
 .custom-header {
   background-color: #1e3a8a; 
-  color:#eaedfa
+
 }
 
 .custom-header {
   background-color: #310749; 
-  color:#eaedfa
+  
 }
